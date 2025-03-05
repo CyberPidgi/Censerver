@@ -23,10 +23,3 @@ def hello_world():
 @cross_origin()
 def test():
     return jsonify({'message': 'Hello World'}) # return JSON response
-
-# main driver function
-if __name__ == '__main__':
-
-    # run() method of Flask class runs the application 
-    # on the local development server.
-    app.run()
